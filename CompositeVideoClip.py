@@ -71,7 +71,7 @@ class CompositeVideoClip(VideoClip):
         self.ismask = ismask
         self.clips = clips
         self.bg_color = bg_color
-		self.duration = duration
+        self.duration = duration
 
         if use_bgclip:
             self.bg = clips[0]
